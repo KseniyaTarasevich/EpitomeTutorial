@@ -6,9 +6,13 @@ public class Portal : Collidable
 
     protected override void OnCollide(Collider2D collider)
     {
-       if (collider.name == "Player")
+
+        if (collider.name == "Player")
         {
             // teleport the player
+
+            GameManager.instance.SaveState();
+
             string sceneName = sceneNames[Random.Range(0, sceneNames.Length)];
             UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
         }

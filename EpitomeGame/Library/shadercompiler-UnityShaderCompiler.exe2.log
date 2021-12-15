@@ -1,2 +1,3 @@
-Base path: 'D:/_/Programs/unity/2020.1.9f1/Editor/Data', plugins path 'D:/_/Programs/unity/2020.1.9f1/Editor/Data/PlaybackEngines'
+Base path: 'D:/Kseniya/mine/programs installation/unity/Editor/Data', plugins path 'D:/Kseniya/mine/programs installation/unity/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
+Cmd: shutdown

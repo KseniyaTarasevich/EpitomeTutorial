@@ -32,10 +32,16 @@ public class GameManager : MonoBehaviour
 
     // references
     public PlayerController player;
+    public FloatingTextManager floatingTextManager;
 
     // logic
     public int pesos;
     public int experience;
+
+    public void ShowText(string msg, int fontSize, Color color, Vector3 position, Vector3 motion, float duration)
+    {
+        floatingTextManager.Show(msg, fontSize, color, position, motion, duration);
+    }
 
     /*
     1 - INT preferedSkin (the skin your player like the most in the character selection)

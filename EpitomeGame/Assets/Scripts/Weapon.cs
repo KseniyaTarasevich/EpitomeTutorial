@@ -51,6 +51,8 @@ public class Weapon : Collidable
                 pushForce = pushForce
             };
 
+            collider.SendMessage("ReceiveDamage", dmg);
+
             Debug.Log(collider.name);
         }
     }

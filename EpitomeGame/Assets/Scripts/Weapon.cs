@@ -53,7 +53,7 @@ public class Weapon : Collidable
 
             collider.SendMessage("ReceiveDamage", dmg);
 
-            Debug.Log(collider.name);
+           // Debug.Log(collider.name);
         }
     }
 
